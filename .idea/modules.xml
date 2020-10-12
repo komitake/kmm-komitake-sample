@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/androidApp/androidApp.iml" filepath="$PROJECT_DIR$/.idea/modules/androidApp/androidApp.iml" group="kmm-komitake-sample/androidApp" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kmm-komitake-sample.iml" filepath="$PROJECT_DIR$/.idea/modules/kmm-komitake-sample.iml" group="kmm-komitake-sample" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/shared.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/shared.iml" group="kmm-komitake-sample/shared" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/shared_commonMain.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/shared_commonMain.iml" group="shared" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/shared_commonTest.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/shared_commonTest.iml" group="shared" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/shared_iosArm64Main.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/shared_iosArm64Main.iml" group="shared" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/shared_iosArm64Test.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/shared_iosArm64Test.iml" group="shared" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/shared_iosMain.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/shared_iosMain.iml" group="shared" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/shared_iosTest.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/shared_iosTest.iml" group="shared" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/shared_iosX64Main.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/shared_iosX64Main.iml" group="shared" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/shared_iosX64Test.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/shared_iosX64Test.iml" group="shared" />
+    </modules>
+  </component>
+</project>
