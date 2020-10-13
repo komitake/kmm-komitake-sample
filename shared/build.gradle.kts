@@ -28,6 +28,13 @@ kotlin {
         val commonMain by getting {
             dependencies {
                 implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.0.0")
+                implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.9-native-mt-2") {
+                    version {
+                        strictly("1.3.9-native-mt-2")
+                    }
+                }
+                implementation("io.ktor:ktor-client-json:1.4.1")
+                implementation("io.ktor:ktor-client-serialization:1.4.1")
             }
         }
         val commonTest by getting {
@@ -39,6 +46,8 @@ kotlin {
         val androidMain by getting {
             dependencies {
                 implementation("com.google.android.material:material:1.2.0")
+                implementation("io.ktor:ktor-client-android:1.4.1")
+                implementation("io.ktor:ktor-client-serialization-jvm:1.4.1")
             }
         }
         val androidTest by getting {
@@ -47,7 +56,12 @@ kotlin {
                 implementation("junit:junit:4.12")
             }
         }
-        val iosMain by getting
+        val iosMain by getting {
+            dependencies {
+                implementation("io.ktor:ktor-client-ios:1.4.1")
+                implementation("io.ktor:ktor-client-serialization-native:1.3.1")
+            }
+        }
         val iosTest by getting
     }
 }
